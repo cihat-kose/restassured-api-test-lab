@@ -2,9 +2,9 @@ Feature: Petstore API Tests
 
   @API
   Scenario: Get Pet by ID
-    Given I have the pet ID 1
+    Given I have the pet ID 2
     Then I should receive a 200 status code
-    And the response should contain the pet ID 1
+    And the response should contain the pet ID 2
 
   @API
   Scenario: Add New Pet
