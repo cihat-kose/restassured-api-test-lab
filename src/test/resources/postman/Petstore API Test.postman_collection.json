@@ -180,7 +180,7 @@
 							"// Check if it contains a successful message for deletion\r",
 							"pm.test(\"Response contains successful deletion message\", function () {\r",
 							"    var jsonData = pm.response.json();\r",
-							"    pm.expect(jsonData.message).to.eql(\"100\"); // Silinen pet ID'nin mesaj olarak dönmesi beklenir\r",
+							"    pm.expect(jsonData.message).to.eql(\"100\"); // The deleted pet ID is expected to return as a message\r",
 							"});\r",
 							""
 						],
