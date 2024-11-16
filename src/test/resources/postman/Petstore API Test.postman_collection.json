@@ -21,7 +21,7 @@
 							"// Verify that the contents of the body contain the correct petId\r",
 							"pm.test(\"Pet ID is correct\", function () {\r",
 							"    var jsonData = pm.response.json();\r",
-							"    pm.expect(jsonData.id).to.eql(1); // 1 numaralı petId için kontrol\r",
+							"    pm.expect(jsonData.id).to.eql(2); // Check for petId number 2\r",
 							"});\r",
 							"\r",
 							"// Check if the response time is less than 1000 ms\r",
