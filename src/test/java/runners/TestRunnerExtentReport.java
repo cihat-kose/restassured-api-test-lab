@@ -10,9 +10,11 @@ import org.testng.annotations.AfterClass;
                 tags="@API",
                 features = "src/test/java/features",
                 glue = "stepDefinitions",
-                plugin = {"pretty", "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
+                plugin = {"pretty", "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
+                        "json:target/cucumber/cucumber.json"}, // JSON report for Jenkins and Extent Report
                 dryRun = false
         )
+
 
 public class TestRunnerExtentReport extends AbstractTestNGCucumberTests {
 
