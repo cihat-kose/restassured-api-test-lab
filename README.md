@@ -1,5 +1,5 @@
 
-# TestingPractices_RestAssured_Cucumber_API
+# Petstore API Testing With RestAssured Cucumber
 
 ![RestAssured](https://img.shields.io/badge/RestAssured-6DB33F?style=for-the-badge&logo=java&logoColor=white)
 ![Cucumber](https://img.shields.io/badge/Cucumber-23D96C?style=for-the-badge&logo=cucumber&logoColor=white)
@@ -41,7 +41,7 @@ The **TestingPractices_RestAssured_Cucumber_API** framework is an API testing so
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/ChatGTHB/TestingPractices_RestAssured_Cucumber_API.git
+   git clone https://github.com/ChatGTHB/petstore-api-testing-with-restassured-cucumber.git
    ```
 2. **Open the project in IntelliJ IDEA**:
    - Go to **File > Open** and select the project folder.
@@ -76,7 +76,7 @@ The **TestingPractices_RestAssured_Cucumber_API** framework is an API testing so
 ## Folder Structure
 
 ```plaintext
-TestingPractices_RestAssured_Cucumber_API/
+petstore-api-testing-with-restassured-cucumber/
 │
 ├── src/
 │   └── test/
