@@ -22,7 +22,7 @@
 
 ## About the Project
 
-The **TestingPractices_RestAssured_Cucumber_API** framework is an API testing solution for the Petstore API, utilizing RestAssured for API interactions, Cucumber for BDD (Behavior-Driven Development), and TestNG for test execution. This framework tests essential API functionalities, such as adding, updating, retrieving, and deleting pets.
+The **Petstore API Testing With RestAssured Cucumber** framework is an API testing solution for the Petstore API, utilizing RestAssured for API interactions, Cucumber for BDD (Behavior-Driven Development), and TestNG for test execution. This framework tests essential API functionalities, such as adding, updating, retrieving, and deleting pets.
 
 ## Features
 
@@ -41,7 +41,7 @@ The **TestingPractices_RestAssured_Cucumber_API** framework is an API testing so
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/ChatGTHB/petstore-api-testing-with-restassured-cucumber.git
+   git clone https://github.com/cihat-kose/petstore-api-testing-with-restassured-cucumber.git
    ```
 2. **Open the project in IntelliJ IDEA**:
    - Go to **File > Open** and select the project folder.
