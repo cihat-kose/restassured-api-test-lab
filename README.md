@@ -1,10 +1,10 @@
 
-# Petstore API Testing With RestAssured Cucumber
+# RestAssured API Test Lab
 
 ![RestAssured](https://img.shields.io/badge/RestAssured-5.x-brightgreen?style=for-the-badge&logo=java)
 ![Cucumber](https://img.shields.io/badge/Cucumber-23D96C?style=for-the-badge&logo=cucumber&logoColor=white)
 ![TestNG](https://img.shields.io/badge/TestNG-7.x-orange?style=for-the-badge)
-![Java](https://img.shields.io/badge/Java-17%2B-blue?style=for-the-badge&logo=openjdk)
+![Java](https://img.shields.io/badge/Java-21%2B-blue?style=for-the-badge&logo=openjdk)
 ![Jenkins](https://img.shields.io/badge/Jenkins-CI%2FCD-critical?style=for-the-badge&logo=jenkins)
 ![Hamcrest](https://img.shields.io/badge/Hamcrest-assertions-purple?style=for-the-badge)
 ![Jackson](https://img.shields.io/badge/Jackson-JSON--binding-ff9933?style=for-the-badge)
@@ -25,7 +25,7 @@
 
 ## About the Project
 
-The **Petstore API Testing With RestAssured Cucumber** framework is an API testing solution for the Petstore API, utilizing RestAssured for API interactions, Cucumber for BDD (Behavior-Driven Development), and TestNG for test execution. This framework tests essential API functionalities, such as adding, updating, retrieving, and deleting pets.
+The **RestAssured API Test Lab** framework is an API testing solution for the Petstore API, utilizing RestAssured for API interactions, Cucumber for BDD (Behavior-Driven Development), and TestNG for test execution. This framework tests essential API functionalities, such as adding, updating, retrieving, and deleting pets.
 
 ## Features
 
@@ -78,7 +78,7 @@ extent.reporter.pdf.out=PdfReport.pdf
 ## Folder Structure
 
 ```plaintext
-petstore-api-testing-with-restassured-cucumber/
+restassured-api-test-lab/
 │
 ├── src/
 │   └── test/
