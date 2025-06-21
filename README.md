@@ -44,7 +44,7 @@ The **Petstore API Testing With RestAssured Cucumber** framework is an API testi
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/cihat-kose/petstore-api-testing-with-restassured-cucumber.git
+   git clone https://github.com/cihat-kose/restassured-api-test-lab.git
    ```
 2. **Open the project in IntelliJ IDEA**:
    - Go to **File > Open** and select the project folder.
@@ -55,14 +55,13 @@ The **Petstore API Testing With RestAssured Cucumber** framework is an API testi
 
 ## Configuration
 
-- **cucumber.properties**: Configures Cucumber options. Located in `src/test/resources`.
-- **extent.properties**: Configures ExtentReports settings. Located in `src/test/resources`.
-  ```properties
-  extent.reporter.spark.start=true
-  extent.reporter.spark.out=test-output/SparkReport/Spark.html
-  extent.reporter.pdf.start=true
-  extent.reporter.pdf.out=PdfReport.pdf
-  ```
+The framework is configured via `extent.properties`, located in `src/test/resources`.
+```properties
+extent.reporter.spark.start=true
+extent.reporter.spark.out=test-output/SparkReport/Spark.html
+extent.reporter.pdf.start=true
+extent.reporter.pdf.out=PdfReport.pdf
+```
 
 ## Usage
 
@@ -93,11 +92,9 @@ petstore-api-testing-with-restassured-cucumber/
 │       │   ├── stepDefinitions/      # Step definitions for Cucumber
 │       │       └── PetstoreAPISteps.java
 │       └── resources/
-│           ├── cucumber.properties   # Cucumber configuration
 │           ├── extent.properties     # ExtentReports configuration
 │           ├── postman/              # Postman collection for API tests
 │           │   └── Petstore API Test.postman_collection.json
-│           └── testng.xml            # TestNG suite configuration
 ├── target/                           # Build output
 └── pom.xml                           # Maven configuration file
 ```
@@ -111,9 +108,9 @@ Dependencies are managed in the `pom.xml` file. Key dependencies include:
 - **ExtentReports**: For generating detailed HTML and PDF reports.
 - **SLF4J**: Simple Logging Facade for Java, used for logging during testing.
 
-> ⚠️ **Java Version Requirement**:  
-> This project uses Java 17 features such as *Text Blocks* (`"""`) and `.formatted()` method.  
-> Please ensure your environment uses **Java 17 or higher**.
+> ⚠️ **Java Version Requirement**:
+> This project now targets **Java 21**.
+> Please ensure your environment uses **Java 21 or higher**.
 
 ## Reporting
 
