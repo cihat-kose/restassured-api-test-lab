@@ -92,9 +92,9 @@ restassured-api-test-lab/
 │       │   ├── stepDefinitions/      # Step definitions for Cucumber
 │       │       └── PetstoreAPISteps.java
 │       └── resources/
-│           ├── extent.properties     # ExtentReports configuration
 │           ├── postman/              # Postman collection for API tests
 │           │   └── Petstore API Test.postman_collection.json
+│           └── extent.properties     # ExtentReports configuration
 ├── target/                           # Build output
 └── pom.xml                           # Maven configuration file
 ```
